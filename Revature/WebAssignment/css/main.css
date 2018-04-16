@@ -1,0 +1,32 @@
+nav {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+   font-size:3vw;
+   font-stretch: expanded;
+}
+
+.jumbotron, #shortBio, #display, #lead {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.6em;
+}
+
+
+.row-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+.accordion.accordion-1 p {
+    font-size: 1rem; }
+  
+  .accordion.accordion-1 .card {
+    background-color: lightblue;
+    border: 1; }
+    .accordion.accordion-1 .card .card-header {
+      border: 1; }
+    .accordion.accordion-1 .card .card-body {
+      line-height: 1.4; }
